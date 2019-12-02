@@ -1,0 +1,10 @@
+CREATE TABLE USERREG (	
+name VARCHAR2(40 BYTE), 
+pass VARCHAR2(40 BYTE)
+);
+
+insert into userreg values('ram','ram');
+
+select * from userreg;
+
+commit;
